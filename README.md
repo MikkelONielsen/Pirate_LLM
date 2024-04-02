@@ -1,2 +1,0 @@
-# Pirate_LLM
-justchatting
