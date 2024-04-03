@@ -1,8 +1,11 @@
 #from langchain_community.chat_models import ChatOpenAI
 from langchain_together import Together
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
-import os
 from dotenv import load_dotenv
+import os
+
+# Load environment variables from .env file
+load_dotenv()
 
 together_api_key = os.getenv("TOGETHER_API_KEY")
 
